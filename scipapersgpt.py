@@ -15,7 +15,7 @@ openai.api_version = credentials['api_version']
 chatgpt_model_name = credentials['chatgpt_model_name']
 
 ## Beging Streamlit App
-st.markdown('![](./img/logo.svg)')
+st.image(f'https://github.com/colbyford/scipapers_chatgpt/raw/master/img/logo.svg')
 
 with st.sidebar.form('input'):
 
