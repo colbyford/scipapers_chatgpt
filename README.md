@@ -29,7 +29,7 @@ chatgpt_model_name: gpt-35_deployment_001
 ```
 
 ## To Run
-Run the following commany and the SciPapers Streamlit app will be shown at http://localhost:8501
+Run the following command and the SciPapers Streamlit app will be shown at `http://localhost:8501`.
 ```bash
 streamlit run .\scipapersgpt.py 
 ```
