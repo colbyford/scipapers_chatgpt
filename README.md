@@ -36,7 +36,6 @@ streamlit run .\scipapersgpt.py
 
 ## Other Resources
 - ChatGPT Samples: https://github.com/Azure/openai-samples/blob/main/ChatGPT/chatGPT_managing_conversation.ipynb
-- SciPapers-ChatGPT GitHub Repository: GitHub — colbyford/scipapers_chatgpt
 - Sam Edelstein’s GoodReads-ChatGPT GitHub Repo: GitHub — samedelstein/goodreads_chatgpt
 - OpenAI Python Library Examples: https://github.com/Azure/openai-samples
 - Azure OpenAI Studio: https://oai.azure.com/
