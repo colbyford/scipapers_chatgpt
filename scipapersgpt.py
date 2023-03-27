@@ -49,7 +49,7 @@ if submit_button:
         articles_read =  ', '.join(articles_df['Source'].astype(str).values.flatten())
 
         ## Create question 
-        question = '''Based on this list of my previously read scientific articles, please recommend other journal articles I can cite for a paper titled "''' + paper_title + '''" and paste a link to the article so I can read it.
+        question = '''Based on this list of my previously read scientific articles, please recommend other real journal articles I can cite for a paper titled "''' + paper_title + '''" and paste a link to the article so I can read it.
 
         Here is my list of journal articles I have read: ''' + articles_read
 
@@ -62,7 +62,7 @@ if submit_button:
             prompt += "\n<|im_start|>assistant\n"
             return (prompt)
         
-        base_system_message = "You are a helpful assistant that recommends scientific journal articles to read based on lists."
+        base_system_message = "You are a helpful assistant that recommends real scientific journal articles to read based on lists."
         system_message = f"<|im_start|>system\n{base_system_message.strip()}\n<|im_end|>"
 
         messages = [
@@ -72,7 +72,7 @@ if submit_button:
             },
             {
                 "sender": "user",
-                "text": "Please list in bullet points the recommended journal articles, their URLs, and why you are recommending them"
+                "text": "Please list in bullet points the recommended journal articles, their URLs, and why you are recommending them."
             }
         ]
 
